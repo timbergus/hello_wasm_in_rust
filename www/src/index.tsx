@@ -5,7 +5,7 @@ import { createRoot } from "react-dom/client";
 
 import init from "hello_wasm_in_rust";
 
-import { App } from "./App";
+import { App } from "./app/App";
 
 const root = createRoot(document.getElementById("root") as HTMLElement);
 
